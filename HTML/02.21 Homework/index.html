@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="web aplikacija">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web aplikacija</title>
+</head>
+<style type="text/css">
+    body {
+        background-color: rgb(74, 132, 220); }
+    div.header_text { 
+        font-size: 50px;
+        color: rgb(53, 6, 53);
+        font-family: monospace;
+        position: absolute;
+  top: 15%;
+  left: 15%;}
+  div.navigation_content {
+font-size: 40px;
+font-family:sans-serif;}
+  div.section_text {  margin: 2;
+   position: absolute;               
+   transform: translate(18%, -80%);
+font-size: 25px; }
+img.arcticle_placeH {  margin: 2;
+   position: absolute;               
+   transform: translate(125%, -50%);
+font-size: 25px; }
+  div.article_text {
+   margin: 0;
+   position: absolute;               
+   transform: translate(30%, 10%);
+   font-size:25px; }
+  div.sign_up { margin: 2;
+   position: absolute;               
+   transform: translate(5%, -200%);
+font-size: 40px; }
+footer {
+    position:absolute;
+   bottom:0;
+   text-align:center;
+   width:100%;
+   height:60px;   }
+  table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 120%;}
+table td, table th {
+  border: 1px solid rgb(60, 7, 7);
+  padding: 8px;}
+table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:hover {background-color:rgb(116, 96, 96);}
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #290d52;
+  color: white;}
+</style>
+<body>
 
+    <header><img src="../../Paveiksleliai/Website-Frontpage-Header-02.jpg" alt="Header banner"  class="banner"> <br>
+        <div class="header_text"><strong>Sveiki atvykė į mano Web aplikaciją</strong></div></header>
+    <nav><div class="navigation_content">  <ul>
+        <li><a href="Pradžia URL">Pradžia</a></li>
+        <li><a href="Katalogas URL">Katalogas</a></li>
+        <li><a href="Fotogalerija URL">Fotogalerija</a></li>
+        <li><a href="Diskusijos URL">Diskusijos</a></li>
+        <li><a href="Kontaktai URL">Kontaktai</a></li>
+    </ul></div></nav>
+    <section><div class="section_text"> <h1>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam neque totam voluptatum iste explicabo beatae unde, nisi voluptas voluptatem dolore praesentium<br>
+             facilis.  Fugiat molestias sint nostrum consequatur nulla beatae repellendus. Cras elementum mi vel fermentum.</p>
+             <h2> Curabitur accumsan dui erat, et. </h2>
+             <p> Nam mollis at dolor egestas pellentesque. Nulla eu quam iaculis, tempor nunc eu, ultricies nisi. Vivamus a dolor in libero pharetra tempus. Sed accumsan erat <br> 
+                nec leo fringilla, itae auctor leo condimentum. Donec interdum lacus ut condimentum aliquam. Proin varius mollis sapien, non posuere felis. Fusce vestibulum  <br>
+                sapien in finibus facilisis. Morbi fermentum vestibulum orci.</p><br>
+</div>
+    </section> 
+    <article>
+        <div class="article_text">  <h1>Img ir table ikelimas  </h1><i>Tai image sugeneruotas pasinaudojant place-hold.it</i>
+           <img src="https://place-hold.it/500x300&text=%20Placehold" alt="placehold pic" class="arcticle_placeH"> 
+            <p>Taip pat sugeneruosime table ir užpildysimė ją su autoriu vardais, pavardėmis ir gimimo metais</p>
+            <table>
+                    <tr><th>Vardas</th><th>Pavardė</th><th>Gimimo metai</th></tr>
+                <tr><td>Jonas</td><td>Basanavičius</td><td>1851</td></tr>
+                <tr><td>Simonas</td><td>Daukantas</td><td>1793</td></tr>
+                <tr><td>Balys</td><td>Sruoga</td><td>1896</td></tr>
+                <tr><td>Antanas</td><td>Škėma</td><td>1911</td></tr>
+            </table>
+    </div>
+    <div class="sign_up"><h2>Registracija</h2>
+
+        <form>
+            <label> Jūsų vardas:  </label> 
+            <input type="text" name="<input type="text" name="pavarde" placeholder="Jūsų vardas"></input><br>
+            <label>Jūsų pavardė: </label>
+            <input type="text" name="vartotojo_pavarde" placeholder="Jūsų pavarde"></input><br>
+            <label> Amžius: </label>
+            <input type="text" name="vartotojo_amžius" placeholder="Jūsų amžius"></input><br>
+            <label>Elektroninis paštas</label>
+            <input type="email" name="email" placeholder="Elektroninio pašto adresas"></input><br>
+            <label>Slaptažodis</label>
+            <input type="password" name="vartotojo_slaptažodi" placeholder="Įveskitė slaptažodį"></input><br>
+            <input type="submit">
+         </form>
+    </div>
+    </article>
+    <footer>&copy 2022 </footer>
+</body>
+</html>

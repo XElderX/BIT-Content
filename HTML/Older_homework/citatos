@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Citatos">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <title>Filosofų išmintis</title>
+    <!-- komentaras -->
+    <style type="text/css">
+        body {
+            background-color:rgb(37, 150, 190); 
+            font-family: sans-serif;
+        }
+        h1 {text-align: center;
+        font-size: 50px;
+        font-family:fantasy;
+        color:rgb(49, 15, 135); }
+        h2 {text-align: center;
+        font-size: 30px;}
+        p {text-align: center;
+            font-size: 20px;}
+        img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;}
+    img.autoriai {
+        border-radius: 60%; }
+    </style>
+</head>
+<br>
+<hr>
+    <img src="../../Paveiksleliai/ezgif.com-gif-maker.gif" alt="Philosophy banner" width="1000" height="300" class="banner">
+<h1>Žymiausių filosofų citatos</h1>
+<hr>
+    <a href="https://lt.wikipedia.org/wiki/Platonas"> <h2><span style="color:greenyellow">Platonas (tikrasis vardas Aristoklas gr. Αριστοκλής 422-347 m. pr. m. e.) <img src="../../Paveiksleliai\Platonas.png" alt="Platonas" class="autoriai" > <br></span> </a></h2> 
+      
+<p><cite>Visiškas neišmanymas - ne didžiausias blogis; kaupti menkai įsisąmonintas žinias - kur kas blogiau. 
+    <br>Pati didžiausia pergalė – nugalėti save.
+     <br> Nuo gražių vaizdų pereisime prie gražių minčių, nuo gražių minčių – prie gražių darbų.</cite></p>
+<br>
+<hr>
+<a href="https://lt.wikipedia.org/wiki/Aristotelis"><h2><span style="color: greenyellow">Aristotelis (gr. Αριστοτέλης 384 m. pr. m. e.– 322 m. pr. m. e.) <img src="../../Paveiksleliai\Aristoteris.png" alt="Aristotelis" class="autoriai"> </span></a>  </h2> <br>
+<p><cite>Laimė yra daug kam prieinama; tam tikru būdu mokydamiesi ir stropiai lavindamiesi, ją gali įgyti visi, jei tik jie nebus doroviškai suluošinti. 
+    <br> Visi saldžialiežuviai – palaižūnai. 
+    <br>Visiškai aišku, kad iš gyvenimiškai naudingų dalykų pirmiausia reikia mokytis tų, kurie iš tikrųjų būtini, o ne visų be išimties.</cite></p>
+<br>
+<hr>
+<a href="https://lt.wikipedia.org/wiki/Sofoklis"><h2><span style="color: greenyellow">Sofoklis (gr. Σοφοκλης; 495 m. pr. m. e. – 406 m. pr. m. e.)<img src="../../Paveiksleliai\Sofoklis.png" alt="Sofoklis" class="autoriai"> </span></a></h2> <br>
+<p><cite>Laimė lydi ne silpnadvasius.
+    <br>Koks baisus gali būti protas, jeigu jis netarnauja žmogui.
+     <br> Tie, kurie suklydo, neturėdami blogų ketinimų, griežtai nesmerkiami. </cite></p>
+<br>
+<hr>
+<a href="https://lt.wikipedia.org/wiki/Sokratas"><h2><span style="color:greenyellow">Sokratas (gr. Σωκράτης; 469 m. pr. m. e.– 399 m. pr. m. e.)<img src="../../Paveiksleliai\Sokratas.png" alt="Sokratas" class="autoriai"> <br></span></a></h2>
+
+<p><cite>Vienaip ar kitaip vesk: jei gausi gerą žmoną, būsi laimingas, jei blogą - tapsi filosofu.
+    <br> Jeigu tikrai nori patekti į Olimpo kalną, neabejok, kad kiekvienas žingsnis veda tave jo pusėn – ir to bus gana
+    <br>Nusiteikimas lavinti tik kūną, atmetant mintį ir dvasią – žemina žmogų. Susikaupimas lavinti tik protą ir mintį – kenkia ištvermei ir stiprumui. Visada ir visur reikia išlaikyti darną tarp fizinių, protinių ir dvasinių pratimų.</cite></p>
+<br>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Citatos">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Puslapiukas</title>
+    <style type="text/css">
+        body {background-color:beige;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+        h1 {text-align:center;
+            font-size: 30px:}
+            p { text-align:left;
+            font-size: 20px:}
+        }
+    </style>
+</head>
+<body>
+    
+<h1>Mano mažasis puslapis</h1>
+<p>Tai mano puslapiukas, kuriame pritaikysiu savo žinias, kurias išmokau per pirmąją savaite, mokindamasis paskaitose apie <br>
+     <strong><dfn>HTML</dfn></strong> <em>- tai žymų kalba - markup language. Pilnas pavainimas: Hypertext markup language.</em></p>
+     <hr>
+   <h2>HTML susideda iš:</h2>
+     <ul>
+         <li>elementų</li>
+         <li>tagų</li>
+         <li>atributų</li>
+     </ul>
+     <img src="https://place-hold.it/720x620/Blue/Placeh" alt= "HTML elementas" > <br>
+     <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/37506127f0730d9b6035530f46c706af4e2319d4" alt= "HTML elementas" width="500" height="500" class="paveiksleliai"> <br>
+     <cite><strong>tai HTML elementas</strong> </cite>
+     <p>Šis paveikslelis ikeltas tiesiai iš interneto. Pasitelkus tagą <b>&lt;img&gt; ir pridėjus prie jo turinį src</b> <br>
+    dabar sekanti paveikslį ikelsiu iš <b>local serverio</b></p>
+    <img src="tagai.png" alt="tagai" width="500" height="500" class="paveiksleliai"> <br>
+    <cite><strong>Tai HTML tagai su aprašymais</strong></cite>
+    <p>Kadangi šis paveikslelis ikeltas iš tos pačios direktorijos, kaip ir <b>Puslapiukas.html</b> tai užteko į elemento <i>value</i> iterpti paveiksliuko failo pavadinima su jo formatu<br>
+    Tačiau būna taip kad paveiksleliai būna kitose aplankuose ar direktorijose, tad ikelsiu pora kitų paveikslelių pavaizduoti tai</p>
+    <img src="../../Paveiksleliai/Atributai.png" alt="atributai" width="500" height="500" class="paveiksleliai">
+    <p> Kadangi paveikslelis pas mane <b>"Paveiksleliai"</b> folderyje, kuris yra dvejomis direktorijose gyliau nei <i><b>.html</b></i> failas tai tenka prirašyti folderio pavadinimą ir nurodyti pathą iki jo <br>
+         prirašant <i><b>../../</b></i>>kadangi per 2 lokacijas giliau.>
+
+     <hr>
+</body>
+</html>

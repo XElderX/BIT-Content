@@ -4,7 +4,7 @@ background-image: url("Website_background_1.jpg");
 background-size:cover;
 }
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: cursive;
   color: aqua;
     position: fixed;
@@ -12,13 +12,13 @@ h1 {
     Top: 5%;
 }
 h2 {
-    font-size: 20px;
+    font-size: 10px;
     color: purple;
     position: fixed;
     left: 2%;
 }
 h3 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 
 }
@@ -39,10 +39,10 @@ section {
         top: 20%;
     }
 center {
-  font-size: 30px;
+  font-size: 20px;
 }
 article {
-font-size: 20px;
+font-size: 15px;
     color:rgb(8, 5, 36);
     position: fixed;
     left: 15%;

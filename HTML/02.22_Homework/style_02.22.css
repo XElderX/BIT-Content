@@ -4,7 +4,7 @@ background-image: url("Website_background_1.jpg");
 background-size:cover;
 }
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-family: cursive;
   color: aqua;
     position: fixed;
@@ -12,21 +12,21 @@ h1 {
     Top: 5%;
 }
 h2 {
-    font-size: 40px;
+    font-size: 20px;
     color: purple;
     position: fixed;
     left: 2%;
 }
 h3 {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
 
 }
 ul.Menu {
     font-family: cursive;
-font-size: 30px}
+font-size: 20px}
 section {
-    font-size: 30px;
+    font-size: 20px;
     color:rgb(209, 208, 221);
     position: fixed;
     left: 15%;
@@ -39,10 +39,10 @@ section {
         top: 20%;
     }
 center {
-  font-size: 60px;
+  font-size: 30px;
 }
 article {
-font-size: 30px;
+font-size: 20px;
     color:rgb(8, 5, 36);
     position: fixed;
     left: 15%;

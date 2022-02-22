@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style_02.22.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="02.22\banner-header-tapete.jpg" alt="banner" width="3100" height="300">
+        <h1>Sveiki atvyke į Website!!!</h1>
+    </header>
+    <br>
+    <nav>
+<h2>Menu</h2>
+<br>
+<br>
+<br>
+<ul class="Menu">
+    <li><a href="Pagrindinis.html">Pradžia </a></li>
+    <li><a href="Katalogas URL">Prisijungti</a></li>
+    <li><a href="Sign_up.html">Registracija</a></li>
+    <li><a href="FAQ">FAQ</a></li>
+    <li><a href="Kontaktai URL">Kontaktai</a></li>
+</ul>
+    </nav>
+    <section class="Sign_up">
+        
+           <h3 span style="color:cornsilk">Forma</h3>
+
+            <form action="BE_URL" method="POST">
+                <label> Vardas: </label>
+                <input type="text" name="user_name" placeholder="Įveskite savo vardą">
+                <label>Pavardė: </label>
+                <input type="text" name="user_surname" placeholder="Įveskite savo pavardę">
+                <label> Lytis: </label>
+                <label>Vyras</label>
+                <input type="radio" id="Vyras" name="user_sex" value="male"> 
+                <label>Moteris</label>
+                <input type="radio" id="Moteris" name="user_sex" value="female"><br>
+                <label> Elektroninis paštas: </label>
+                <input type="email" name="email" placeholder="Prašomė įvesti savo El. pašto adresą"><br>
+                <label>Mėgiama programavimo kalbą</label>
+                <select name="Programavimo kalba" id="p_language">
+                <option select disabled >programavimo kalba</option>>
+                    <optgroup label="High-level">
+                        <option value="Java">Java</option>
+                        <option value="Javascript">Javascript</option>
+                        <option value="Python">Java</option>
+                        <option value="C#">C#</option>
+                        <option value="PHP">PHP</option>
+                    </optgroup>
+                    <optgroup label="Low-level n Mid-Level">
+                        <option value="machine_code">machine code</option>
+                        <option value="assembly">Assembly</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                    </optgroup>
+                    </select>
+                    <label>Slaptažodis</label>
+                    <input type="password" name="pass" placeholder="Slaptažodis"><br>
+                    <button type="Submit">Pateikti!</button>
+                    <button type="cancel">Atšaukti</button>  
+            </form>
+    </section>
+   <footer>
+    &copy 2022 
+   </footer>
+
+</body>
+</html>

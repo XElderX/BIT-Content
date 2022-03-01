@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd page</title>
+<style>
+    a:link {
+        color: burlywood;
+    }
+    a:visited {
+        color:rgb(93, 0, 255);
+    }
+    p:hover {
+        color: rgb(21, 159, 159);
+    }
+h6:active {
+    color:crimson;
+    font-size: xx-large;
+}
+input:focus {
+    color:green;
+    background-color: rgb(193, 193, 39);
+}
+h5:first-child {
+    background-color: aquamarine;
+}
+h4:nth-child(4) {
+    background-color: darkmagenta;
+}
+div1:not(.header) {
+    background-color: rgb(72, 0, 255);
+}
+</style>
+</head>
+<body>
+    <nav> 
+         <a href="index.html" alt="previous_page">Go to previous page</a> </nav>
+    </nav>
+    <section>
+        <h1>CSS pseudo-Classes</h1>
+
+        <ul>
+            <li> link - links not yet visited,</li>
+            <li>visited - links already visited,</li>
+            <li>hover - elements with mouse over them, tag:hover {}, #id:hover {}</li>
+            <li>focus - elements with focus on them,</li>
+            <li>active - elements currently being clicked,</li>
+            <li>x:first-child - first x element under its parent in the DOM tree,</li>
+            <li>x:nth-child(n|odd) - elementas x, kuris yra n-tasis vaikas, bet savo tėvinio elemento</li>
+            <li>not - elements which should be excluded from this rule.</li>
+        </ul>
+<hr>
+<h2>Pseudo-classes examples</h2>
+<a href="index.html">last page</a> <a href="2nd_page.html">This page</a>
+<p>Its example of pseudo-classes this text will be cyan if u guide on it</p>
+<h6>Guide and click on this element ant it will make trick :)</h6>
+<form>
+    <label>guide your mouse cursor on input field and write something it should be green with yellowish background</label>
+    <input type="text" id="input_field" name="field">
+</form>
+<div>
+     <h5>header Element 1 in div block, becouse it is firs child in block it will be coloured cyan background</h5>
+    <h5>header element 2 in div block, becouse it is not first child in  block it will be not coloured cyan background</h5>
+</div>
+<hr>
+<div>
+    <h4>Header element 1: becouse its not 4th element in this block it will be not havin background magneda colour </h4>
+    <h4>Header element 2: becouse its not 4th element in this block it will be not havin background magneda colour</h4>
+    <h4>Header element 3: becouse its not 4th element in this block it will be not havin background magneda colour</h4>
+    <h4>Header element 4: becouse its  4th element in this block it will be  havin background magneda colour</h4>
+    <h4>Header element 5: becouse its not 4th element in this block it will be not havin background magneda colour</h4>
+</div>
+<hr>
+<h3>:not(x) if x=.header</h3>
+
+<div1>
+    <p2 class="p1">This line its paragraph </p2>
+    <h4 class="header">header (this class element is not colored</h4>
+    <p3 class="p3">this is another paragraph</p3>
+</div1>
+   
+
+
+
+    </section>
+</body>
+</html>

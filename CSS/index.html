@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Homework 03.01</title>
+    <style>
+        p {
+            color:blueviolet;
+        }
+
+        .class_example {
+            font-weight:bold;
+        }
+        #id_selector {
+            text-decoration: underline;
+        }
+
+        p2 p3 {
+            color:crimson
+        }
+        .example2 .example3 {
+            color:darkblue
+        }
+        div > p5 {
+            color:chartreuse
+        }
+        p6 + p7 {
+            color:darkolivegreen;
+            font-weight: bold
+        }
+        p8~p9 {
+            color:darkslateblue;
+            font-weight: bold
+        }
+        a {
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            font-style: oblique;
+            color: brown;
+           
+        }
+    </style>
+</head>
+<body>
+<section>
+    <h1>CSS selectors examples </h1>
+
+    <h2>Most important selectors</h2>
+   
+        <ul>
+            <li>tag/element selectors</li>
+            <li>class selector</li>
+            <li>id selector</li>
+        </ul>
+<p>Simple example for "p" tag to color it purple colour. It applied for all "p" tags. All other "p" lines have this colour too</p>
+
+<p class="class_example"> this paragraph for example of class selector. To make font bold </p>
+<p id="id_selector">This is only line for id selector. this line have underline</p>
+<p class="class_example"> this paragraph is same as second one havin class selector </p>
+<p0 class="class_example"> however if I make p0 with same class name p rules not applies, but only class rules applies for this line </p0>
+<p span style="color:coral"> inline style atribute rules have priority against embedded or external rules. this line should have colour coral </p>
+
+<h2>additional selectors combination</h2>
+
+<ul>
+    <li>descendant selector (space)</li>
+    <li>child selector(>)</li>
+    <li>adjacent sibling selector</li>
+    <li>general sibling selector</li>
+</ul>
+<h>descendant selector (space)</h>
+<p2>I select p2 new tag for paragraph to have independant rules.
+
+    <p3> This is p3 tag element to show how descendant selector works. It shoud only this part of paragraph colored crimsom</p3>
+</p2>
+<br>
+<h3>example with classes</h3>
+<br>
+
+<p2 class="example2"> This is one more example with same rules but only apply using class atribute. 
+    <p3 class="example3" >this is decendant colored dark blue. </p3> </p2>
+
+    <h3>child selector (>)</h3>
+
+    <div>parent element and it not affected by aplying this role <br>
+    <p5>child element 1. it should be colored as child element </p5> <br>
+    <p5>child element 2. it should be colored too as it is also child element</p5>
+   
+</div>
+<h3>adjacent sibling selector(+)</h3>
+
+<p6>Main-Sibling; </p6>
+<p7>adjacent Sibling 1.this element have aplied rule; </p7>
+<p7>non-adjacent Sibling 2. This element did't have apllied rule coz its not adjacent; </p7>
+<p7>non-adjacent sibling 3. This element did't have apllied rule coz its not adjacent; </p7>
+
+<h3>General sibling selector (~)</h3>
+
+<p8>Main-sibling</p8><br>
+<p9>Sibling 1. Rules apllies</p9><br>
+<p9>Sibling 2. Rules apllies</p9><br>
+<p9>Sibling 3. Rules apllies</p9><br>
+<p9>Sibling 4. Rules apllies</p9><br>
+</section>
+<br>
+<nav> <a href="2nd_page.html" alt="next page">Next page. Click here</a> </nav>
+</body>
+</html>

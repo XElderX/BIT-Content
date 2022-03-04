@@ -3,16 +3,13 @@
             margin:0;
             padding:0;
             box-sizing:border-box;
-
         }
         body {
             background-color:HEX #ffffff;
             margin: 20% 20% 20% 20%;
-
         }
 
-        section { text-align: center;
-            
+        section { text-align: center;     
         }
 
         #no_1 {
@@ -22,8 +19,7 @@
             background-color:rgb(112,192,201);
             position:absolute;
             left: 20%;
-            top: 50%;
-            
+            top: 30%;     
         }
         #no_2 {
             width:150px;
@@ -32,7 +28,7 @@
             background-color:rgb(64,116,189);
             position:absolute;
             left: 35%;
-            top: 50%;
+            top: 30%;
 
         }
         #no_3 {
@@ -42,7 +38,7 @@
             background-color:rgb(224,94,70);
             position:absolute;
             left:50%;
-            top: 50%;
+            top: 30%;
 
         }
         #no_4 {
@@ -52,7 +48,7 @@
             background-color:rgb(145,145,145);
             position:absolute;
             left: 65%;
-            top: 50%;
+            top: 30%;
 
         }
 
@@ -60,82 +56,87 @@
             text-align: center;
             text-transform: capitalize;
             color:rgb(242,187,180);
-            font size: 0.5em;
+            font-size: 1rem;
+            font-weight: bold;
             width:70px;
             position:absolute;
             left: 22%;
-            top: 75%;
+            top: 55%;
+
         }
         
         #h2 {
             text-align: center;
             text-transform: capitalize;
             color:rgb(242,187,180);
-            font size: 0.5em;
+            font-size: 1rem;
+            font-weight: bold;
             width:70px;
             position:absolute;
-            left: 35%;
-            top: 75%;
+            left: 37%;
+            top: 55%;
         }
         
         #h3 {
             text-align: center;
             text-transform: capitalize;
             color:rgb(242,187,180);
-            font size: 0.5em;
+            font-size: 1rem;
+            font-weight: bold;
             width:70px;
             position:absolute;
             left: 52%;
-            top: 75%;
+            top: 55%;
         }
         
         #h4 {
             text-align: center;
             text-transform: capitalize;
             color:rgb(242,187,180);
-            font size: 0.5em;
+            font-size: 1rem;
+            font-weight: bold;s
             width:70px;
             position:absolute;
             left: 67%;
-            top: 75%;
+            top: 55%;
         }
 
         #p1 {
             text-align: center;
             color:black;
-            font size: 0.1em;
+            font-size: 0.7rem;
             width:130px;
             position:absolute;
             left: 22%;
-            top: 90%;
+            top: 65%;
         }
         #p2 {
             text-align: center;
 
             color:black;
-            font size: 0.1em;
+            font-size: 0.7rem;
             width:130px;
             position:absolute;
             left: 35%;
-            top: 90%;
+            top: 65%;
         }
         #p3 {
             text-align: center;
             color:black;
-            font size: 0.1em;
+            font-size: 0.7rem;
             width:130px;
             position:absolute;
-            left: 52%;
-            top: 90%;
+            left: 50%;
+            top: 65%;
         }
         #p4 {
             text-align: center;
         
             color:black;
-            font size: 0.1em;
+            font-size: 0.7rem;
             width:130px;
             position:absolute;
-            left: 67%;
-            top: 90%;
+            left: 65%;
+            top: 65%;
         }
        

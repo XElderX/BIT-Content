@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style_sprint.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="BIT-Practical assigment No.01. Mainly used HTML elements. For better page view used some CSS rules.My css knowleadge at novice level.
+    do not espect any stunning styled content.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   <meta property="title" content="Journey into IT world!">
+   <meta property="og:title" content="Blog: New journey into IT world!!">
+   <meta property="og:description" content="Check brand new blog written by Dalius Kriauciunas">
+   <meta property="og:image" content="Hamba-20191-A-Sliwa.jpg">
+
+   <meta name="twitter:card" content="summary_large_image"/>
+		<meta name="twitter:title" content="The Journey Into IT World!"/>
+		<meta name="twitter:description" content="Check brand new blog written by Dalius Kriauciunas"/>
+		<meta name="twitter:image" content="twitter tag pic"/>
+    <title>New journey into IT world!</title>
+</head>
+<body>
+    <header>
+        <nav><a href="Index.html">Home</a> <a href="Form.html"> Fill in a form</a> <a href="Articles.html"> Intresting Articles</a> <a href="About.html"> About</a></nav> 
+        <form class="search">
+            <input type="text" name="search" placeholder="Enter text to search">
+          </form>
+    </header>
+    <br> 
+    <article>
+        <h2>Please fill up a form. </h2>
+        <section class="form">
+        <form action="BackEnd_URL" method="POST">
+            <label> Name: </label>
+            <input type="text" name="user_name" placeholder="Enter your name">
+            <label>Surname: </label>
+            <input type="text" name="user_surname" placeholder="Enter your surname">
+            <label> Gender: </label>
+            <label>Male</label>
+            <input type="radio" id="men" name="user_sex" value="male"> 
+            <label>Female</label>
+            <input type="radio" id="female" name="user_sex" value="female"><br>
+            <label> Email address: </label>
+            <input type="email" name="email" placeholder="Please enter your email"><br>
+            <label>Your favorite programming language</label>
+            <select name="Programming language" id="p_language">
+            <option select disabled >programming language</option>>
+          
+                <optgroup label="High-level">
+                    <option value="Java">Java</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="Python">Python</option>
+                    <option value="C#">C#</option>
+                    <option value="PHP">PHP</option>
+                </optgroup>
+                <optgroup label="Low-level n Mid-Level">
+                    <option value="machine_code">machine code</option>
+                    <option value="assembly">Assembly</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                </optgroup>
+                </select>
+                <label>Password</label>
+                <input type="password" name="pass" placeholder="password"><br>
+                <button type="Submit">Submit!</button>
+                <button type="cancel">Cancel</button>
+       
+        </form>
+    </section>
+        <h2 class="program_table">Programming language by year invented</h2>
+<table class="table_programming_lang">
+    <tr>
+        <th>Image</th><th>Id</th><th>Created by</th><th>Invented in year</th>
+    </tr>
+    <tr>
+        <td> <img src="img\Machine_C.png" alt="machine_code" width="15" hight="15"></td><td> Machine Code</td><td>John Mauchly</td><td>1949</td>
+    </tr>
+    <tr>
+        <td> <img src="img\assembly.png" alt="Assembly" width="15" hight="15"></td><td> Assembly</td><td>Kathleen Booth</td><td>1949</td>
+    </tr>
+    <tr>
+        <td> <img src="img\C.png" alt="C" width="15" hight="15"></td><td> C</td><td>Dennis Ritchie</td><td>1972</td>
+    </tr>
+    <tr>
+        <td> <img src="img\Cpp.png" alt="C_plusplus" width="15" hight="15"></td><td> C++</td><td>Bjarne Stroustrup</td><td>1985</td>
+    </tr>
+    <tr>
+        <td> <img src="img\Python.png" alt="Python" width="15" hight="15"></td><td> Python</td><td>Guido van Rossum</td><td>20th February 1991</td>
+    </tr>
+    <tr>
+        <td> <img src="img\java.png" alt="Java" width="15" hight="15"></td><td> Java</td><td>James Gosling</td><td>23rd May 1995</td>
+    </tr>
+    <tr>
+        <td> <img src="img\php.png" alt="PHP" width="15" hight="15"></td><td> PHP</td><td>Rasmus Lerdorf</td><td>June 8, 1995</td>
+    </tr>
+    <tr>
+        <td> <img src="img\JS.png" alt="JS" width="15" hight="15"></td><td> Javascript</td><td>Brendan Eich</td><td>4th December 1995</td>
+    </tr>
+    <tr>
+        <td> <img src="img\C_sharp.png" alt="JS" width="15" hight="15"></td><td> C#</td><td>Anders Hejlsberg</td><td>2000</td>
+    </tr>
+    
+
+</table>
+
+
+        
+    </article>
+    <footer>
+        Copyright &copy; 2022 - All Rights Reserved 
+    </footer>
+</body>
+</html>

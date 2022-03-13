@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style_sprint.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="BIT-Practical assigment No.01. Mainly used HTML elements. For better page view used some CSS rules. My css knowleadge at novice level.
+    do not espect any stunning styled content.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta property="title" content="Journey into IT world!">
+   <meta property="og:title" content="Blog: New journey into IT world!!">
+   <meta property="og:description" content="Check brand new blog written by Dalius Kriauciunas">
+   <meta property="og:image" content="Hamba-20191-A-Sliwa.jpg">
+
+   <meta name="twitter:card" content="summary_large_image"/>
+		<meta name="twitter:title" content="The Journey Into IT World!"/>
+		<meta name="twitter:description" content="Check brand new blog written by Dalius Kriauciunas"/>
+		<meta name="twitter:image" content="twitter tag pic"/>
+    <title>New journey into IT world!</title>
+</head>
+<body>
+    <header>
+        <nav><a href="Index.html">Home</a> <a href="Form.html"> Fill in a form</a> <a href="Articles.html"> Intresting Articles</a> <a href="About.html"> About</a></nav> 
+        <form class="search">
+            <input type="text" name="search" placeholder="Enter text to search">
+          </form>
+    </header>
+    <br> 
+    <Article>
+        
+<section class="top">
+    <h2>When and Why You Should Use C++?</h2>
+    <details>
+        <summary>
+            <strong>Click to read:</strong>
+        </summary>
+        <p>...
+            The decision to use C or C++ depends on many factors, of which age is probably the most important. For very low level or embedded programs, C comes with less overhead. But for any program that does major text processing or has a more complex data model, the benefits of C++ should not be ignored.
+            
+            ...
+            C++ is still around and many of the applications that run on Windows and Linux are written in it. The entire AAA games industry, with a few multimillion dollar titles, depends on C++. I doubt any other language will ever be a good fit in that domain. The world of open source uses C++ extensively and thanks to the free Microsoft C++ Compiler, Windows is considered a viable platform. But while languages such as Python don't match it for performance, but they are good enough and far easier to learn.
+            
+            SlashDot, July 25, 2013</p>
+    </details>
+
+</section>
+<section class="mid">
+    <h2>TypeScript vs JavaScript: What’s the Difference?</h2>
+    <details>
+        <summary>
+            <strong>Click to read: </strong>
+        </summary>
+        <p>
+            No one likes static web pages with zero dynamic elements. Responsiveness along with smooth and flawless performance are characteristics that distinguish a quality web product.<br>
+
+For years, JavaScript was the main tool developers used to turn boring, static web pages into vivid, dynamic products that were pleasant to look at and comfortable to work with. Today, this language has dozens of alternatives, and one of the most famous is TypeScript.<br>
+
+In this article, we compare TypeScript vs JavaScript, highlight the main features of both languages, outline the key differences between them, and determine when and why TypeScript can be used instead of JavaScript. We also provide a practical comparison of TypeScript vs JavaScript performance so you can see how each of these languages handles itself when given similar tasks.<br>
+        </p>
+    </details>
+</section>
+
+<section class="bottom">
+    <h2>Simple <i>switch cases in C++ (explained)</i></h2>
+    <details>
+        <summary>
+            <strong>Click to read: </strong>
+    </summary>
+    <p> This is very simple <em>switch cases</em> example in C++ language:
+        <pre>
+            <code>
+                #include &ltiostream>
+            
+                    using namespace std;
+                    
+                    int main()
+                    {
+                        int day;
+                    
+                        cout &lt&lt "Enter day no: ";
+                        cin>> day;
+                        switch (day)
+                        {
+                            case 1:cout <<"Mon";
+                            break;
+                            case 2:cout <<"Tue";
+                            break;
+                            case 3:cout <<"Wed";
+                            break;
+                            case 4:cout <<"Thu";
+                            break;
+                            case 5:cout <<"Fri";
+                            break;
+                            case 6:cout <<"Sat";
+                            break;
+                            case 7:cout <<"Sun";
+                            default: cout<<"Invalid day";
+                            
+                            return 0;
+                        }
+                    }  </code>
+                    </pre>
+                    <h3>explained step by step</h3>
+                    <ol id="code_explained">
+                        <p>
+                            <li>
+                                <code> #include &ltiostream> </code> this line is Standard Input / Output Streams Library. </li>
+                            <li> <code>int main()</code> means that is main function which be executed first. Afterwards goes { ... } as everything  between them means process order of the function.</li>
+                            <li>code>int day;</code> Describles variable used in this function and data type, <em>int</em> is integer that means it stores solid number.</li>
+                            <li> <code>cout << "Enter day no: ";</code> <em>cout<< </em> means <i>console out</i> that is a rule telling debugger to promp text between " " as after every process line required we have to put <b>;</b>  - semicolon</li>
+                            <li> <code>cin>> day;</code> <em>cin>> </em> means <i>console in</i> that is a rule telling debugger to take the value from user and store into variable <em>day</em></li>
+                            <li><code>case 1:cout <<"Mon";<br>
+                                break;</code> <em>case 1: </em>,<br>
+                                ...<br>
+                                <em>case 7: cout <<"Sun";</em>  if the value of <em>day</em> which user inputed is one between of 1-7 the return value will be called as the output and <em>break</em> means that process have to be stopped.</li>
+                            <li><code>default: cout<<"Invalid day";</code> this line says if cases imput number is  not met (1-7), then trown out the <em>default</em> value which are <em>Invalid day</em> </li>
+                        </ol>
+     
+        
+                        </p>
+                
+    </details>
+    
+</section>
+</article>
+    </Article>
+    <footer>
+        Copyright &copy; 2022 - All Rights Reserved 
+    </footer>
+</body>
+</html>
